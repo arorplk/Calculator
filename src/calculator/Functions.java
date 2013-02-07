@@ -10,14 +10,12 @@ package calculator;
  */
 public class Functions {
 
-
-    
-    public static double add( double ans, double a) {
+    public static double add(double ans, double a) {
         return a += ans;
     }
 
     public static double sub(double ans, double s) {
-        return s -= ans;
+        return ans -= s;
     }
 
     public static double mult(double ans, double m) {
